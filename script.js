@@ -1,7 +1,7 @@
 let input = document.getElementById('inputBox');
 let buttons = document.querySelectorAll('button');
 
-let string = ""; // Corrected variable name from 'strimg' to 'string'
+let string = "";
 let arr = Array.from(buttons);
 arr.forEach(button => {
     button.addEventListener('click', (e) => {
